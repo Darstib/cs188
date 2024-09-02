@@ -1,4 +1,6 @@
 ---
+tags:
+- note
 dg-publish: true
 ---
 # cs188 - sp24
@@ -7,7 +9,7 @@ dg-publish: true
 
 这个仓库存放的是 UCB [CS 188 Spring 2024](https://inst.eecs.berkeley.edu/~cs188/sp24/) 的笔记&自学资料。
 
-- 笔记：主体为原课程 notes，加入了自己的思考和排版，在[我的博客](https://darstib.github.io/blog/note/CS188/)上你可以预览
+- 笔记：主体为原课程 notes，加入了自己的思考和排版，在[我的博客](https://darstib.github.io/blog/note/CS188/)上你可以查看这些笔记；但为了更好的观感，建议使用 obsidian 查看，见 Usage 。
 - 自学资料：由于 UCB 近年的部分课程开始需要 [CalNet Authentication Service](https://auth.berkeley.edu/cas/login?service=https%3a%2f%2finst.eecs.berkeley.edu%2f%7ecs188%2fsp23%2f)，为了便于之后的学习，将我认为自学需要的资料存档于[本仓库](https://github.com/Darstib/cs188)；由于不清楚如何申请转载权限，故若[本项目](https://github.com/Darstib/cs188)对[原课程](https://inst.eecs.berkeley.edu/~cs188/sp24/)及其相关项目产生不良影响，请[联系我](https://darstib.github.io/blog/connect_me/)删除。
 
 ### note
@@ -41,11 +43,22 @@ dg-publish: true
 
 ## Usage
 
-#### 使用 git
+#### 下载
 
-```
+##### 使用 git
+
+```shell
 git clone https://github.com/Darstib/cs188.git
 ```
 
-#### 直接下载
+##### 直接下载
 
+![](attachments/README.png)
+
+#### 阅读
+
+1. 获取 [obsidian](https://obsidian.md)；
+2. [导入markdown](https://publish.obsidian.md/help-zh/import/markdown)；
+3. 点击右上角进入阅读视图即可。
+
+![](attachments/README-1.png)
