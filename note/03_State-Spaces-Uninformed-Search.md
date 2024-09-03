@@ -14,7 +14,7 @@ _Uniform cost search_ is good because it’s both complete and optimal, but it c
 
 ### Heuristics（启发式）
 
-Heuristics are the driving force that allow estimation of distance to goal states - they’re functions that <u>take in a state as input and output a corresponding estimate</u> .
+Heuristics are the driving force that allow estimation of distance to goal states - they’re functions that <u>take in a state as input and output a corresponding estimate</u>.
 
 > The computation performed by such a function is **specific to the search problem** being solved. For reasons that we’ll see in A* search, below.
 
