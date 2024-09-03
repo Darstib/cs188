@@ -4,9 +4,6 @@ tags:
   - notes
 ---
 
-## link
-
-- [cs188-sp24-note02](../materials/original_note/cs188-sp24-note02.pdf)
 
 ## note
 
@@ -150,7 +147,6 @@ We’ll now cover three such strategies in succession: **depth-first search, bre
 > - BFS -> queue
 > - UCS -> (min) heap
 
-> [!PDF|notice] [disc01-regular-sols, p.2](course_notes/CS188%20Introduction%20to%20Artificial%20Intelligence/materials/disc&hw/disc01-regular-sols.pdf#page=2&selection=2,0,2,27&color=notice)
-> > Search Algorithms in Action
-> 
-> 
+## link
+
+- [cs188-sp24-note02](../materials/original_note/cs188-sp24-note02.pdf)

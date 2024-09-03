@@ -12,7 +12,7 @@ tags:
 
 _Uniform cost search_ is good because it’s both complete and optimal, but it can be **fairly slow** because it expands in every direction from the start state while searching for a goal. If we <u>have some notion of the direction in which we should focus our search</u> , we can significantly improve performance and "hone in" on a goal **much more quickly**. This is exactly the focus of _informed search_.
 
-### Heuristics（试探法）
+### Heuristics（启发式）
 
 Heuristics are the driving force that allow estimation of distance to goal states - they’re functions that <u>take in a state as input and output a corresponding estimate</u> .
 

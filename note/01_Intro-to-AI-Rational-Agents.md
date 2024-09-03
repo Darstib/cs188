@@ -4,10 +4,6 @@ tags:
   - notes
 ---
 
-## link
-
-- [cs188-sp24-note01](../materials/original_note/cs188-sp24-note01.pdf)
-
 ## note
 
 ### Agents
@@ -30,4 +26,6 @@ tags:
 >
 > 在这里，`know physics` 应该是指已经被人类探索出来的规律；而 `unknown physics` 则是指尚且没有得知的规律。
 
+## link
 
+- [cs188-sp24-note01](../materials/original_note/cs188-sp24-note01.pdf)
