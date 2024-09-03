@@ -4,7 +4,10 @@ tags:
   - notes
 ---
 
-
+> [!PREREQUISITE]
+>
+> - [dfs](https://oi-wiki.org/graph/dfs/)
+> - [bfs](https://oi-wiki.org/graph/bfs/)
 ## note
 
 ### State Spaces and Search Problems

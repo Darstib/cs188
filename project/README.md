@@ -1,12 +1,8 @@
 # The Pac-Man Projects
 
-## Intro
-
 这里是CS188 的 project [The Pac-Man Projects](https://inst.eecs.berkeley.edu/~cs188/sp24/projects/) 的解答，主要参考了 [CS188_Course_Projects](https://github.com/szzxljr/CS188_Course_Projects)。
 
 项目实现效果大致如： [pacman_game](https://inst.eecs.berkeley.edu/~cs188/sp24/assets/images/pacman_game.gif)。
-
-## Solution
 
 > [!ATTENTION]
 >
