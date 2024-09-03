@@ -2,13 +2,14 @@
 tags:
   - notes
 comments: true
+dg-publish: true
 ---
 
-## link
-
-- [02_State-Spaces-Uninformed-Search](../note/02_State-Spaces-Uninformed-Search.md)
-- [03_State-Spaces-Uninformed-Search](../note/03_State-Spaces-Uninformed-Search.md)
-- [Project 1 _ CS 188 Spring 2024](../materials/project/intro_page/Project%201%20_%20CS%20188%20Spring%202024.html)
+> [!PREREQUISITE]
+>
+> - [02-State_Spaces_Uninformed_Search](../../../docs/note/cs188/note/02-State_Spaces_Uninformed_Search.md)
+> - [03-Informed_Search_Astar_and_Heuristics](../note/03-Informed_Search_Astar_and_Heuristics.md)
+> - [preject-1](https://inst.eecs.berkeley.edu/~cs188/sp24/projects/proj1/) （若需要认证，可见[仓库](https://github.com/Darstib/cs188/tree/main/materials/project/intro_page)）
 
 ## explain
 

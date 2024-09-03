@@ -1,4 +1,5 @@
 ---
+comments: true
 dg-publish: true
 tags:
   - notes
@@ -8,6 +9,7 @@ tags:
 >
 > - [dfs](https://oi-wiki.org/graph/dfs/)
 > - [bfs](https://oi-wiki.org/graph/bfs/)
+
 ## note
 
 ### State Spaces and Search Problems

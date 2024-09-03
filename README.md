@@ -1,8 +1,10 @@
 ---
 tags:
-- note
+  - notes
+comments: true
 dg-publish: true
 ---
+
 # cs188 - sp24
 
 > There will be an English README when this project is completed.
@@ -12,7 +14,8 @@ dg-publish: true
 这个仓库存放的是 UCB [CS 188 Spring 2024](https://inst.eecs.berkeley.edu/~cs188/sp24/) 的笔记&自学资料；理论上，你学习该课程所需要的全部资料都可以在这里及给出的外链中找到。
 
 - 笔记：主体为原课程 notes[^1]，加入了自己的思考和排版，在[我的博客](https://darstib.github.io/blog/note/CS188/)上你可以阅读这些笔记；但为了更好的观感，建议使用 obsidian 查看，见使用-阅读。
-- 自学资料：由于 UCB 近年的部分课程开始需要 [CalNet Authentication Service](https://auth.berkeley.edu/cas/login?service=https%3a%2f%2finst.eecs.berkeley.edu%2f%7ecs188%2fsp23%2f)，为了便于之后的学习，将我认为自学需要的资料存档于[本仓库](https://github.com/Darstib/cs188)；由于不清楚如何申请转载权限，故若[本项目](https://github.com/Darstib/cs188)对[原课程](https://inst.eecs.berkeley.edu/~cs188/sp24/)及其相关项目产生不良影响，请[联系我](https://darstib.github.io/blog/connect_me/)删除。
+- 自学资料：由于 UCB 近年的部分课程开始需要[CalNet Authentication Service](https://auth.berkeley.edu/cas/login?service=https%3a%2f%2finst.eecs.berkeley.edu%2f%7ecs188%2fsp23%2f)，为了便于之后的学习，将我认为自学需要的资料存档于[本仓库](https://github.com/Darstib/cs188)；由于不清楚如何申请转载权限，故若[本项目](https://github.com/Darstib/cs188)对[原课程](https://inst.eecs.berkeley.edu/~cs188/sp24/)及其相关项目产生不良影响，请[联系我](https://darstib.github.io/blog/connect_me/)删除。
+- 如果对[搜索算法](https://oi-wiki.org/search/)了然于心、对 ML/DL/RL 知识较为熟悉且希望接触一些小的项目文件，大可直接做 project。
 
 [^1]: 其一，我不能确保我的翻译正确性；其二，网页/obsidian 阅读已经能够借助很多插件辅组阅读，可参考[读 / 写文章](https://darstib.github.io/blog/collection/Tools/#i4)；其三，本人精力有限，恕不能完全打造一个 CS188全中文阅读环境。
 
@@ -25,7 +28,7 @@ dg-publish: true
     - [project-0](project/project-0.md)
 - Search
     - [02-State_Spaces_Uninformed_Search](note/02-State_Spaces_Uninformed_Search.md)
-    - [03-Mathematical_Induction](../cs70/note/03-Mathematical_Induction.md)
+    - [03-Informed_Search_Astar_and_Heuristics](note/03-Informed_Search_Astar_and_Heuristics.md)
     - [04-Local_Search](note/04-Local_Search.md)
     - [project-1](project/project-1.md)
 - Games

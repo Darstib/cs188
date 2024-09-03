@@ -1,12 +1,9 @@
 ---
+comments: true
 dg-publish: true
 tags:
   - notes
 ---
-
-## link
-
-- [cs188-sp24-note04](../materials/original_note/cs188-sp24-note04.pdf)
 
 ## note
 
@@ -123,3 +120,7 @@ function REPRODUCE(x, y) returns an individual
 ### Summary
 
 In this note, we discussed local search algorithms and their motivation. <u>We can use these approaches when we don’t care about the path to some goal state, and want to satisfy constraints or optimize some objective.</u>  Local search approaches allow us to save space and find adequate solutions when working in large state spaces!
+
+## link
+
+- [cs188-sp24-note04](../materials/original_note/cs188-sp24-note04.pdf)

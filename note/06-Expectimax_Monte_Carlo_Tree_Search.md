@@ -1,12 +1,9 @@
 ---
+comments: true
 dg-publish: true
 tags:
   - notes
 ---
-
-## link
-
-- [cs188-sp24-note06](../materials/original_note/cs188-sp24-note06.pdf)
 
 ## note
 
@@ -18,7 +15,7 @@ Expectimax introduces **chance nodes** into the game tree, which instead of cons
 
 > [!NOTE]
 >
-> Our rule for determining values of nodes with expectimax is as follows:[^1]
+> Our rule for determining values of nodes with **expectimax** is as follows:[^1]
 > 
 > $$V(s) = 
 \begin{cases} 
@@ -138,3 +135,7 @@ In this note, we shifted gears from considering standard search problems where w
 - In most cases, it’s too computationally expensive to run the above algorithms all the way to the level of terminal nodes in the game tree under consideration, and so we introduced the notion of **evaluation functions** for early termination. 
 - For problems with large branching factors we described the **MCTS and UCT algorithms**. Such algorithms are <u>easily parallelizable, allowing for a large number of rollouts to take place using modern hardware</u>.
 - We considered the problem of general games with multi-agent, where the rules are not necessarily zero-sum.
+
+## link
+
+- [cs188-sp24-note06](../materials/original_note/cs188-sp24-note06.pdf)

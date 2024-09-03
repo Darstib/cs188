@@ -1,8 +1,13 @@
 ---
+comments: true
 dg-publish: true
 tags:
   - notes
 ---
+
+> [!PREREQUISITE]
+>
+> - [有限状态机](https://www.wikiwand.com/zh/articles/%E6%9C%89%E9%99%90%E7%8A%B6%E6%80%81%E6%9C%BA)
 
 ## note
 

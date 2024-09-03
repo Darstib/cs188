@@ -1,12 +1,9 @@
 ---
+comments: true
 dg-publish: true
 tags:
   - notes
 ---
-
-## link
-
-- [cs188-sp24-note05](../materials/original_note/cs188-sp24-note05.pdf)
 
 ## note
 
@@ -185,3 +182,7 @@ As you can tell, evaluation function design can be quite free-form, and don’t 
 > [!TIP]
 >
 > 回想一下高中学习的线性回归：我们根据已知数据，获取 $\hat{y} = ax+b$，然后碰到了一个前面所不知道的 x，代入其中，我们依旧能够获取 $\hat{y} ≈ y$，这就是一个 eval(x)。
+
+## link
+
+- [cs188-sp24-note05](../materials/original_note/cs188-sp24-note05.pdf)

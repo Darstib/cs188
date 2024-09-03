@@ -1,13 +1,16 @@
 ---
+comments: true
 dg-publish: true
 tags:
   - notes
 ---
 
-## link
+> [!PREREQUISITE]
+>
+> -  [范数](https://www.wikiwand.com/zh/articles/%E8%8C%83%E6%95%B0)
+> - [序关系](https://darstib.github.io/blog/note/cs70/note/18-Misc/#_5)
 
-- [cs188-sp24-note03](../materials/original_note/cs188-sp24-note03.pdf)
-
+## note
 ### Informed Search
 
 _Uniform cost search_ is good because it’s both complete and optimal, but it can be **fairly slow** because it expands in every direction from the start state while searching for a goal. If we <u>have some notion of the direction in which we should focus our search</u> , we can significantly improve performance and "hone in" on a goal **much more quickly**. This is exactly the focus of _informed search_.
@@ -131,7 +134,7 @@ The standard metric for this(creating "good" heuristics, and how to tell if one 
 > 
 >> [!HELP]
 >>
->> 关键是理解这个 semi-lattice，用[序关系]()来理解就很不错，下面的例子也很好地帮助我们理解。
+>> 关键是理解这个 semi-lattice，用序关系来理解就很不错，下面的例子也很好地帮助我们理解。
 > 
 > Below is an example of a semi-lattice that incorporates various heuristics ha,hb, and hc ranging from the trivial heuristic at the bottom to the exact goal distance at the top:
 >
@@ -148,3 +151,7 @@ Regarding the search problems, they can be solved using a variety of search tech
 - Uniform Cost Search 
 - Greedy Search 
 - A* Search
+
+## link
+
+- [cs188-sp24-note03](../materials/original_note/cs188-sp24-note03.pdf)

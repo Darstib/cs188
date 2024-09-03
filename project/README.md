@@ -1,3 +1,10 @@
+---
+tags:
+  - notes
+comments: true
+dg-publish: true
+---
+
 # The Pac-Man Projects
 
 这里是CS188 的 project [The Pac-Man Projects](https://inst.eecs.berkeley.edu/~cs188/sp24/projects/) 的解答，主要参考了 [CS188_Course_Projects](https://github.com/szzxljr/CS188_Course_Projects)。

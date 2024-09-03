@@ -18,7 +18,7 @@ tags:
     - [01-Intro_to_AI_Rational_Agents](01-Intro_to_AI_Rational_Agents.md)
 - Search
     - [02-State_Spaces_Uninformed_Search](02-State_Spaces_Uninformed_Search.md)
-    - [03-Mathematical_Induction](../cs70/03-Mathematical_Induction.md)
+    - [03-Informed_Search_Astar_and_Heuristics](03-Informed_Search_Astar_and_Heuristics.md)
     - [04-Local_Search](04-Local_Search.md)
 - Games
     - [05-Trees_Minimax_Pruning](05-Trees_Minimax_Pruning.md)
