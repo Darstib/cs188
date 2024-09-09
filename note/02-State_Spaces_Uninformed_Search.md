@@ -5,6 +5,15 @@ tags:
   - notes
 ---
 
+> [!AI_SUMMARY]-
+> 无序搜索算法在状态空间中探索解决方案，而不考虑启发式信息。
+>
+> - **状态空间：**所有可能状态的集合。
+> - **搜索树：**从初始状态开始，通过操作生成的状态图。
+> - **广度优先搜索（BFS）：**按层级探索状态，确保找到最短路径。
+> - **深度优先搜索（DFS）：**沿着一条路径深入探索，可能错过更优解。
+> - **统一代价搜索（UCS）：**根据路径成本探索状态，保证找到最低成本路径。
+
 > [!PREREQUISITE]
 >
 > - [dfs](https://oi-wiki.org/graph/dfs/)
@@ -112,11 +121,11 @@ function EXPAND(problem, node) yields nodes
 
 We’ll now cover three such strategies in succession: **depth-first search, breadth-first search, and uniform cost search.** Along with each strategy, some rudimentary properties of the strategy are presented as well, in terms of the following:
 
-- The completeness of each search strategy - if there exists a solution to the search problem, is the strategy guaranteed to find it given infinite computational resources? 
-- The optimality of each search strategy - is the strategy guaranteed to find the lowest cost path to a goal state? 
-- The branching factor b - The increase in the number of nodes on the frontier each time a frontier node is dequeued and replaced with its children is O(b). At depth k in the search tree, there exists O(b k ) nodes. 
-- The maximum depth m. 
-- The depth of the shallowest solution s.
+- The **completeness** of each search strategy - if there exists a solution to the search problem, is the strategy guaranteed to find it given infinite computational resources? 
+- The **optimality** of each search strategy - is the strategy guaranteed to find the lowest cost path to a goal state? 
+- The **branching factor** b - The increase in the number of nodes on the frontier each time a frontier node is dequeued and replaced with its children is O(b). At depth k in the search tree, there exists O(b k ) nodes. 
+- The **maximum depth** m. 
+- The **depth of the shallowest solution** s.
 
 > Depth-First Search & Breadth-First Search 比较常见，这里略过。
 
@@ -128,7 +137,7 @@ We’ll now cover three such strategies in succession: **depth-first search, bre
 > 
 > - **Description**
 > - **FrontierRepresentation**
-> - **Completeness**
+> - **Completeness** 
 > - **Optimality**
 > - **Time Complexity**
 > - **Space Complexity** 
@@ -154,4 +163,4 @@ We’ll now cover three such strategies in succession: **depth-first search, bre
 
 ## link
 
-- [cs188-sp24-note02](../materials/original_note/cs188-sp24-note02.pdf)
+- [cs188-sp24-note02](https://inst.eecs.berkeley.edu/~cs188/sp24/assets/notes/cs188-sp24-note02.pdf)

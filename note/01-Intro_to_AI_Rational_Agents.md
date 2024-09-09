@@ -33,4 +33,4 @@ tags:
 
 ## link
 
-- [cs188-sp24-note01](../materials/original_note/cs188-sp24-note01.pdf)
+- [cs188-sp24-note01](https://inst.eecs.berkeley.edu/~cs188/sp24/assets/notes/cs188-sp24-note01.pdf)

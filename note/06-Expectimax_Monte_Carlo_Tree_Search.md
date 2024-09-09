@@ -1,8 +1,8 @@
 ---
-comments: true
-dg-publish: true
 tags:
   - notes
+comments: true
+dg-publish: true
 ---
 
 ## note
@@ -138,4 +138,4 @@ In this note, we shifted gears from considering standard search problems where w
 
 ## link
 
-- [cs188-sp24-note06](../materials/original_note/cs188-sp24-note06.pdf)
+- [cs188-sp24-note06](https://inst.eecs.berkeley.edu/~cs188/sp24/assets/notes/cs188-sp24-note06.pdf)

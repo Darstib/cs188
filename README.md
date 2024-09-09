@@ -34,6 +34,12 @@ dg-publish: true
 - Games
     - [05-Trees_Minimax_Pruning](note/05-Trees_Minimax_Pruning.md)
     - [06-Expectimax_Monte_Carlo_Tree_Search](note/06-Expectimax_Monte_Carlo_Tree_Search.md)
+    - [project-2](project/project-2.md)
+- Logic
+    - [07-Propositional_Logic_and_Planning](note.07-Propositional_Logic_and_Planning.md)
+    - [08-DPLL&ForwardChaining](note/08-DPLL&ForwardChaining.md)
+    - [09-First_Order_Logic](note/09-First_Order_Logic.md)
+    - [10-Intro_to_Probability](note/10-Intro_to_Probability.md)
 - 施工中……
 - [problem](note/problem.md)
     - docs 中比较值得看的题。

@@ -154,4 +154,4 @@ Regarding the search problems, they can be solved using a variety of search tech
 
 ## link
 
-- [cs188-sp24-note03](../materials/original_note/cs188-sp24-note03.pdf)
+- [cs188-sp24-note03](https://inst.eecs.berkeley.edu/~cs188/sp24/assets/notes/cs188-sp24-note03.pdf)

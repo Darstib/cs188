@@ -185,4 +185,4 @@ As you can tell, evaluation function design can be quite free-form, and don’t 
 
 ## link
 
-- [cs188-sp24-note05](../materials/original_note/cs188-sp24-note05.pdf)
+- [cs188-sp24-note05](https://inst.eecs.berkeley.edu/~cs188/sp24/assets/notes/cs188-sp24-note05.pdf)
