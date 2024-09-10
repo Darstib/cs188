@@ -1,0 +1,4 @@
+# This is the solution file for test_cases/q2/exactlyOne.test.
+# The result of evaluating the test must equal the below when cast to a string.
+result: "21"
+result0: "13"

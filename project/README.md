@@ -18,6 +18,7 @@ dg-publish: true
 - [project-0](project-0.md)
 - [project-1](project-1.md)
 - [project-2](project-2.md)
+- [project-3](project-3.md)
 
 > [!ENV] 本人 project 环境
 >

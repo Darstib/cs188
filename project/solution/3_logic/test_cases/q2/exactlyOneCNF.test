@@ -1,0 +1,20 @@
+class: "EvalTest"
+success: "PASS"
+failure: "NO PASS"
+
+# Python statements initializing variables for the test below.
+preamble: """
+import logic
+
+A = logic.Expr('A')
+B = logic.Expr('B')
+C = logic.Expr('C')
+D = logic.Expr('D')
+expr = logicPlan.exactlyOne([A, B, C, D])
+"""
+
+# A python expression to be evaluated.  This expression must return the 
+# same result for the student and instructor's code.
+
+test: "logic.is_valid_cnf(expr)"
+

@@ -1,0 +1,12 @@
+class: "PacphysicsTest"
+
+layoutName: "maze1x2"
+layout: """
+%%%
+% %
+%P%
+%%%
+"""
+t: "0"
+
+axiomType: "sensor"

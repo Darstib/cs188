@@ -1,0 +1,12 @@
+class: "FoodProblemTest"
+
+layoutName: "testSearch"
+layout: """
+%%%%%
+%.P %
+%%% %
+%.  %
+%%%%%
+"""
+
+

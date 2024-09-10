@@ -1,0 +1,11 @@
+class: "LocalizationProblemTest"
+
+layoutName: "maze3x3_6"
+layout: """
+%%%%%
+%% P%
+%  %%
+%%  %
+%%%%%
+"""
+actions: "['West', 'East', 'West', 'South', 'North']"

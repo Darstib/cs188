@@ -475,7 +475,7 @@ def betterEvaluationFunction(currentGameState: GameState):
 ## pass
 
 - [project-2 全部通过](attachments/project-2-13.png)
-- 全代码
+- [全代码](https://github.com/Darstib/cs188/tree/main/project/solution)
 
 > [!SUMMARY]
 >

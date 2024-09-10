@@ -398,7 +398,7 @@ def findPathToClosestDot(self, gameState: pacman.GameState):
 ## pass
 
 - [project-1 全部通过](attachments/project-1-9.png)
-- 全代码
+- [全代码](https://github.com/Darstib/cs188/tree/main/project/solution)
 
 > [!SUMMARY]
 >

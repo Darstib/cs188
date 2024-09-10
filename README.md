@@ -9,6 +9,7 @@ dg-publish: true
 
 > There will be an English README when this project is completed.
 
+> 暂时因校内选拔事宜停更，预计 2024/11 继续；目前已更新至 note 10/project 3 。
 ## 介绍
 
 这个仓库存放的是 UCB [CS 188 Spring 2024](https://inst.eecs.berkeley.edu/~cs188/sp24/) 的笔记&自学资料；理论上，你学习该课程所需要的全部资料都可以在这里及给出的外链中找到。
@@ -40,7 +41,8 @@ dg-publish: true
   - [08-DPLL&ForwardChaining](note/08-DPLL&ForwardChaining.md)
   - [09-First_Order_Logic](note/09-First_Order_Logic.md)
   - [10-Intro_to_Probability](note/10-Intro_to_Probability.md)
-- 施工中……
+  - [project-3](project/project-3.md)
+- 施工中……（暂时因校内选拔事宜停更，预计 2024/11 继续）
 - [problem](note/problem.md)
   - docs 中比较值得看的题。
 
@@ -53,12 +55,14 @@ dg-publish: true
 - origianl_note
   - 课程原笔记，理论上查看上述本人 note 足矣；
 - project
-  - solution
-    - 我的答案（施工中）；
-  - original_zip
-    - 原 project 源码；
+      - original_zip
+          - 原 project 源码；
+    - intro_page
+        - 保留的实验文档的页面文件。
+    - solution
+        - 参考代码（移动至 `cs188/project/solution/` 中）
 - [gradecode](https://www.gradescope.com/)
-  - 4VK322。
+    - 4VK322。
 
 ## 使用
 
@@ -70,11 +74,17 @@ dg-publish: true
 git clone https://github.com/Darstib/cs188.git
 ```
 
-#### 直接下载
+#### 直接全部下载
 
 ![](attachments/README.png)
 
+#### 部分下载
+
+如果只是想要 note 或者 project 部分或者其他单独一个文件夹，可以使用 [DownGit](https://download-directory.github.io/)，输入目标文件夹在此 git 仓库的 url 即可。
+
 ### 阅读
+
+> 从头开始获取一个比较好的阅读体验可以看[这里](https://darstib.github.io/blog/tutorial/begin/Obsidian_begin/#ii)；要求不高的话简单版如下：
 
 1. 获取 [obsidian](https://obsidian.md)；
 2. [导入 markdown](https://publish.obsidian.md/help-zh/import/markdown)；

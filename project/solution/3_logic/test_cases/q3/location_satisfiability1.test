@@ -1,0 +1,14 @@
+class: "LocationSatisfiabilityTest"
+
+layoutName: "maze1x2"
+layout: """
+%%%
+% %
+%P%
+%%%
+"""
+
+x0_y0: "(1, 1)"
+action0: "North"
+x1_y1: "(1, 2)"
+action1: "South"

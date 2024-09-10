@@ -1,0 +1,27 @@
+class: "LogicTest"
+success: "PASS"
+failure: "NO PASS"
+
+# Python statements initializing variables for the test below.
+preamble: """
+import logic
+logic.Expr.counter = 0
+
+A = logic.PropSymbolExpr('A');
+B = logic.PropSymbolExpr('B');
+C = logic.PropSymbolExpr('C');
+D = logic.PropSymbolExpr('D');
+symbols = [A, B, C, D]
+
+exactly1 = logicPlan.exactlyOne(symbols)
+num_nodes = logic.Expr.counter
+
+ans = [num_nodes]
+
+"""
+
+# A python expression to be evaluated.  This expression must return the 
+# same result for the student and instructor's code.
+test: "ans"
+
+

@@ -1,0 +1,11 @@
+class: "PositionProblemTest"
+
+layoutName: "maze2x2"
+layout: """
+%%%%
+% P%
+%. %
+%%%%
+"""
+
+

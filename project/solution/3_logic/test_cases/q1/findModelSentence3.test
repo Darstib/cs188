@@ -1,0 +1,9 @@
+class: "EvalTest"
+success: "PASS"
+failure: "NO PASS"
+
+# A python expression to be evaluated.  This expression must return the 
+# same result for the student and instructor's code.
+
+test: "logicPlan.modelToString(logicPlan.findModel(logicPlan.sentence3()))"
+

@@ -1,0 +1,33 @@
+class: "LogicTest"
+success: "PASS"
+failure: "NO PASS"
+
+# Python statements initializing variables for the test below.
+preamble: """
+import logic
+
+A = logic.PropSymbolExpr('A');
+B = logic.PropSymbolExpr('B');
+C = logic.PropSymbolExpr('C');
+D = logic.PropSymbolExpr('D');
+symbols = [A, B, C, D]
+
+atleast1 = logicPlan.atLeastOne(symbols)
+
+model1 = {A:False, B:False, C:False, D:False}
+model2 = {A:False, B:True, C:False, D:False}
+model3 = {A:True, B:True, C:False, D:False}
+
+ans1 = logic.pl_true(atleast1,model1)
+ans2 = logic.pl_true(atleast1,model2)
+ans3 = logic.pl_true(atleast1,model3)
+
+ans = [ans1, ans2, ans3]
+"""
+
+# A python expression to be evaluated.  This expression must return the 
+# same result for the student and instructor's code.
+
+test: "ans"
+
+

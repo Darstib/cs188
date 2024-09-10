@@ -1,0 +1,11 @@
+class: "SLAMProblemTest"
+
+layoutName: "maze3x3_6"
+layout: """
+%%%%%
+%% P%
+%  %%
+%%  %
+%%%%%
+"""
+actions: "['West', 'South', 'West', 'East', 'South', 'East']"

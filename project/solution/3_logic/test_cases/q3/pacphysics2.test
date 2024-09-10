@@ -1,0 +1,11 @@
+class: "PacphysicsTest"
+
+layoutName: "maze2x2_3"
+layout: """
+%%%%
+% P%
+%% %
+%%%%
+"""
+t: "1"
+axiomType: "slam"

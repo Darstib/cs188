@@ -1,0 +1,14 @@
+class: "FoodProblemTest"
+
+layoutName: "tinySearch"
+layout: """
+%%%%%%%%%
+%..   ..%
+%%%%.%% %
+%   P   %
+%.%% %%.%
+%.%.   .%
+%%%%%%%%%
+"""
+
+

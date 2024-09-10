@@ -66,4 +66,4 @@ def shopSmart(orderList, fruitShops):
 ## pass
 
 - [project-0 全部通过](attachments/project-0.png)
-- 全代码
+- [全代码](https://github.com/Darstib/cs188/tree/main/project/solution)

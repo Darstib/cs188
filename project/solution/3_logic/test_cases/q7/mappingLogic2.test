@@ -1,0 +1,12 @@
+class: "MappingProblemTest"
+
+layoutName: "maze4x4_10"
+layout: """
+%%%%%
+%P% %
+% % %
+%   %
+%  %%
+%%%%%
+"""
+actions: "['South', 'South', 'South', 'East', 'North', 'East', 'North', 'North']"
