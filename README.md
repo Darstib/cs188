@@ -9,7 +9,10 @@ dg-publish: true
 
 > There will be an English README when this project is completed.
 
-> 暂时因校内选拔事宜停更，预计 2024/11 继续；目前已更新至 note 10/project 3 。
+> - 24/09/16：该课程网站似乎也对外关闭资源下载，原课程全部 note 已在 [original_note](https://github.com/Darstib/cs188/tree/main/materials/original_note) 中更新，更加全面的资料参考 [zxuhan/CS188_sp24/](https://github.com/zxuhan/CS188_sp24/)。
+> - 24/09/01：暂时因个人其他重大事宜停更，预计 2024/11 继续；目前已更新至 note 10/project 3；
+
+
 ## 介绍
 
 这个仓库存放的是 UCB [CS 188 Spring 2024](https://inst.eecs.berkeley.edu/~cs188/sp24/) 的笔记&自学资料；理论上，你学习该课程所需要的全部资料都可以在这里及给出的外链中找到。
@@ -59,7 +62,7 @@ dg-publish: true
           - 原 project 源码；
     - intro_page
         - 保留的实验文档的页面文件。
-    - solution
+    - [solution](https://github.com/Darstib/cs188/tree/main/project/solution)
         - 参考代码（移动至 `cs188/project/solution/` 中）
 - [gradecode](https://www.gradescope.com/)
     - 4VK322。
