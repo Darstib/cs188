@@ -9,8 +9,11 @@ dg-publish: true
 
 > There will be an English README when this project is completed.
 
+> - 24/10/10：原课程网站又开了😋
+>
 > - 24/09/16：该课程网站似乎也对外关闭资源下载，原课程全部 note 已在 [original_note](https://github.com/Darstib/cs188/tree/main/materials/original_note) 中更新，原课程所有 hw&disc&slides的资料参考 [zxuhan/CS188_sp24/](https://github.com/zxuhan/CS188_sp24/)。
-> - 24/09/01：暂时因个人其他重大事宜停更，预计 2024/11 继续；目前已更新至 note 10/project 3；
+> 
+> - 24/09/01：开学太忙了……预计寒假继续；目前已更新至 note 10/project 3
 
 
 ## 介绍
