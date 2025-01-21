@@ -1,0 +1,51 @@
+class: "OutputTest"
+success: "PASS"
+failure: "NO PASS"
+
+# Python statements initializing variables for the test below.
+preamble: """
+import inference
+
+class dummyGhostAgent(object):
+    pass
+dummyGhostAgent = dummyGhostAgent()
+dummyGhostAgent.index = 1
+inf = inference.InferenceModule(dummyGhostAgent)
+pacmanPosition = (3, 5)
+ghostPosition = (4, 6)
+jailPosition = inf.getJailPosition()
+
+ans1 = inf.getObservationProb(1, pacmanPosition, ghostPosition, jailPosition)
+ans2 = inf.getObservationProb(2, pacmanPosition, ghostPosition, jailPosition)
+ans3 = inf.getObservationProb(5, pacmanPosition, ghostPosition, jailPosition)
+ans4 = inf.getObservationProb(None, pacmanPosition, ghostPosition, jailPosition)
+ans5 = inf.getObservationProb(1, pacmanPosition, jailPosition, jailPosition)
+ans6 = inf.getObservationProb(2, pacmanPosition, jailPosition, jailPosition)
+ans7 = inf.getObservationProb(5, pacmanPosition, jailPosition, jailPosition)
+ans8 = inf.getObservationProb(None, pacmanPosition, jailPosition, jailPosition)
+ans9 = inf.getObservationProb(0, pacmanPosition, ghostPosition, jailPosition)
+
+jailPosition = (1000000000000000000000, 1000000000000000000000)
+ghostPosition = (1000000000000000000000, 1000000000000000000000)
+ans10 = inf.getObservationProb(None, pacmanPosition, ghostPosition, jailPosition)
+
+# battling usage of is instead of ==
+jailPosition = [5, 5]
+ghostPosition = [5, 5]
+ans11 = inf.getObservationProb(None, pacmanPosition, ghostPosition, jailPosition)
+# test for NoisyDistance is 0 or None
+ans13 = inf.getObservationProb(0, pacmanPosition, ghostPosition, jailPosition)
+
+jailPosition = [0.4, 2.4]
+ghostPosition = [1.4, 2.4]
+ans12 = inf.getObservationProb(1.2, pacmanPosition, ghostPosition, jailPosition)
+
+ans = map(float, [ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10, ans11, ans12, ans13])
+"""
+
+# A python expression to be evaluated.  This expression must return the 
+# same result for the student and instructor's code.
+
+test: "ans"
+
+

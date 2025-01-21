@@ -5,11 +5,32 @@ comments: true
 dg-publish: true
 ---
 
+# MultiAgent
+
 > [!PREREQUISITE]
 >
 > - [05-Trees_Minimax_Pruning](../note/05-Trees_Minimax_Pruning.md)
 > - [06-Expectimax_Monte_Carlo_Tree_Search](../note/06-Expectimax_Monte_Carlo_Tree_Search.md)
 > - [preject 2](https://inst.eecs.berkeley.edu/~cs188/sp24/projects/proj2/) （若需要认证，可见[仓库](https://github.com/Darstib/cs188/tree/main/materials/project/intro_page)）
+
+## Quick Review
+
+- 博弈树（Game Tree）
+	- 博弈树是一种图形结构，用于表示博弈中的所有可能状态及其相应的决策。树的节点代表游戏状态，边代表玩家的行动。通过分析博弈树，玩家可以评估不同策略的结果，从而选择最佳行动。
+- Minimax（极小极大算法）
+	- 一种决策算法，用于在零和游戏中寻找最佳策略，通过假设对手也会采取最佳行动，从而最小化可能的损失或最大化可能的收益。
+- Alpha-Beta Pruning（α-β 剪枝）
+	- 一种优化算法，用于减少在博弈树中评估的节点数量，从而提高 minimax 算法的效率，常用于决策过程中。
+- Evaluation Functions（评估函数）
+	- 在决策中用于估计特定局面的函数，帮助 Agent 判断当前状态的优劣，以便做出最佳决策。
+- Expectimax（期望极大算法）
+	- 一种扩展的决策算法，适用于包含随机性因素的博弈，通过计算每个可能结果的期望值来选择最佳行动，常用于棋类游戏和其他不确定环境中的决策。
+- Mixed Layer Types（混合层类型）
+	- 在决策过程中，我们的对手不一定只有一个（但是目的相同），他们依次行动，每人依次在博弈树上占有一层。
+- General Game（通用游戏）
+	- 我们的多个对手的目的并非相同，对手的执行顺序对结果影响巨大。
+- Monte Carlo Tree Search（蒙特卡洛树搜索）
+	- 蒙特卡洛树搜索是一种启发式搜索算法，通过随机采样和模拟来评估游戏树中的节点，帮助做出决策。
 
 ## explain
 
@@ -476,7 +497,3 @@ def betterEvaluationFunction(currentGameState: GameState):
 
 - [project-2 全部通过](attachments/project-2-13.png)
 - [全代码](https://github.com/Darstib/cs188/tree/main/project/solution)
-
-> [!SUMMARY]
->
-> 算法本身看懂了倒是不难，个人觉得 python 的实现才是比较头痛的地方。

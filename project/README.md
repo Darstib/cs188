@@ -1,10 +1,3 @@
----
-tags:
-  - notes
-comments: true
-dg-publish: true
----
-
 # The Pac-Man Projects
 
 这里是CS188 sp24 的 project [The Pac-Man Projects](https://inst.eecs.berkeley.edu/~cs188/sp24/projects/) 的解答。
@@ -19,8 +12,13 @@ dg-publish: true
 - [project-1](project-1.md)
 - [project-2](project-2.md)
 - [project-3](project-3.md)
+- [project-4](project-4.md)
 
 > [!ENV] 本人 project 环境
 >
-> - WSL ubuntu 22.04；
-> - miniconda => python=3.9.19
+> - project 0-3
+> 	- WSL ubuntu 22.04；
+> 	- miniconda => python=3.9.19
+> - project 4-now
+> 	- MacOS
+> 	- miniforge3 => Python=3.10.16

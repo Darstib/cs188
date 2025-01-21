@@ -1,14 +1,9 @@
----
-tags:
-  - notes
-comments: true
-dg-publish: true
----
-
 # cs188 - sp24
 
 > There will be an English README when this project is completed.
 
+> - 25/01/21: 更新 note11-13 以及 project4 解答，已全部通过测试代码。
+>
 > - 24/10/10：原课程网站又开了😋
 >
 > - 24/09/16：该课程网站似乎也对外关闭资源下载，原课程全部 note 已在 [original_note](https://github.com/Darstib/cs188/tree/main/materials/original_note) 中更新，原课程所有 hw&disc&slides的资料参考 [zxuhan/CS188_sp24/](https://github.com/zxuhan/CS188_sp24/)。
@@ -96,4 +91,4 @@ git clone https://github.com/Darstib/cs188.git
 2. [导入 markdown](https://publish.obsidian.md/help-zh/import/markdown)；
 3. 点击右上角进入阅读视图即可。
 
-![](attachments/README-1.png)
+![](attachments/README-1.png):

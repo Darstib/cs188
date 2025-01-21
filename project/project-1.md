@@ -5,6 +5,8 @@ comments: true
 dg-publish: true
 ---
 
+# Search
+
 > [!PREREQUISITE]
 >
 > - [02-State_Spaces_Uninformed_Search](../note/02-State_Spaces_Uninformed_Search.md)
