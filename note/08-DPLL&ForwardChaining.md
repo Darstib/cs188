@@ -1,6 +1,7 @@
 ---
 tags:
   - notes
+  - cs188
 comments: true
 dg-publish: true
 ---
@@ -59,12 +60,12 @@ We start by calling DPLL with an empty model (no symbols assigned yet), symbols 
 ```python title="pseudocode1 for DPLL"
 function DPLL-SATISFIABLE?(s) returns true or false  
 inputs: s, a sentence in propositional logic  
-   # 将输入的命题逻辑句子转换为 CNF 形式的子句集合  
-   clauses ← the set of clauses in the CNF representation of s  
-   # 获取所有的命题符号  
-   symbols ← a list of the proposition symbols in s  
-   # 调用 DPLL 算法进行求解  
-   return DPLL(clauses, symbols, {})
+    # 将输入的命题逻辑句子转换为 CNF 形式的子句集合  
+    clauses ← the set of clauses in the CNF representation of s  
+    # 获取所有的命题符号  
+    symbols ← a list of the proposition symbols in s  
+     # 调用 DPLL 算法进行求解  
+    return DPLL(clauses, symbols, {})
 ```
 
 > [!EXAMPLE]

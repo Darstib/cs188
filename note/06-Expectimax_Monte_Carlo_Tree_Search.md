@@ -1,6 +1,7 @@
 ---
 tags:
   - notes
+  - cs188
 comments: true
 dg-publish: true
 ---

@@ -1,8 +1,9 @@
 ---
-comments: true
-dg-publish: true
 tags:
   - notes
+  - cs188
+comments: true
+dg-publish: true
 ---
 
 > [!AI_SUMMARY]-
