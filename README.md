@@ -1,15 +1,14 @@
 ---
 tags:
   - notes
+  - cs188
 comments: true
 dg-publish: true
 ---
 
 # cs188 - sp24
 
-> There will be an English README when this project is completed.
-
-> 目前算是基本完成了。
+> 中文 | [English](README_en.md)
 
 ## 介绍
 
@@ -61,9 +60,6 @@ dg-publish: true
 	- [24-Reinforcement_Learnin](note/24-Reinforcement_Learnin.md)
 	- project5/6 无讲解
 		- project 6 - Q7 代码已完成，但是训练结果很差，无处调试，遂放弃。
-- 施工中……
-- [problem](note/problem.md)
-    - docs 中比较值得看的题。
 
 ### materials
 
