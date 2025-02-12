@@ -1,11 +1,3 @@
----
-tags:
-  - notes
-  - cs188
-comments: true
-dg-publish: true
----
-
 # cs188 - sp24
 
 > [中文](README.md) | English
